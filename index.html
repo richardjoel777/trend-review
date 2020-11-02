@@ -1,0 +1,1482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Reviw</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="shortcut icon" href="newicon.ico">
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4aaf599d40.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZDMGJwFVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+</head>
+</head>
+<body class="body-color">
+  <div id="head" class="navigation-wrap bg-light start-header start-style">
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+
+        <img class="navbar-brand" src="/video.ico" alt="logo" width="70px" height="65px">
+        <button class="navbar-toggler " onclick="mybody();myrebody();" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse bg-dark dark  " id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" id="under1" href="#movies-english"><i class="fas fa-play-circle"></i>Movies</a>
+                </li>
+                <li class="nav-item " id="under">
+                    <a class="nav-link " href="#tv-series"><i class="fal fa-tv-retro"></i>  TV Series</a>
+                </li>
+                <li class="nav-item " id="under2">
+                    <a class="nav-link " href="#top-picks"><i class="fas fa-list-ul"></i>Top Lists</a>
+                </li>
+                <li class="nav-item " id="under4">
+                    <a class="nav-link " id="formm" onclick="document.getElementById('id03').style.display='block'" href="#"><i class="fas fa-user-shield"></i><span class="badge badge-primary">PRO</span></a>
+
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item " id="under3">
+                        <a class="nav-link" id="formm" onclick="document.getElementById('id02').style.display='block'" href="#"><i class="fas fa-clipboard-list"></i>Register</a>
+                    </li>
+                    <li class="nav-item " id="under4">
+                        <a class="nav-link" id="formm" onclick="document.getElementById('id01').style.display='block'" href="#"><i class="far fa-user" id="formm"></i>Login</a>
+                    </li>
+                </ul>
+                <input class="form-control mr-sm-2" id="lab" type="text" placeholder="Search" aria-label="Search">
+                <button id="btn-grad" class="btn btn-outline my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+</div>
+
+    <div id="id01" class="modal">
+
+        <form id="bg-dark1" class="modal-content animate bg-dark">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+
+            </div>
+
+            <div class="container">
+                <h2 id="h2">WELCOME <i class="fab fa-accusoft"></i></h2><br>
+                <label><b>Username</b></label>
+
+                <input class="form-control input-field" type="text" id="pass" placeholder="Enter Username" name="uname" required>
+                <div id="user"><span style="position:absolute; right:25px;top:178px;" class="fas fa-user-tie "></span></div>
+
+                <label><b>Password</b></label>
+                <input id="pass" type="password" class="form-control input" placeholder="Enter Password" name="psw" required>
+                <div id="user"><span style="position:absolute; right:25px;top:278px;" class="fas fa-lock"></span></div>
+                <input type="checkbox" checked="checked"> Remember me
+                <button type="submit" id="b1" class="butn">Login</button>
+                <span id="psw" class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+
+
+        </form>
+    </div>
+    <div id="id02" class="modal">
+
+        <form id="bg-dark" class="modal-content animate bg-dark">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">×</span>
+
+            </div>
+
+            <div class="container">
+                <h2 id="h2">REGISTER <i class="fas fa-user-edit"></i></h2><br>
+                <label><b>Username</b></label>
+
+                <input class="form-control input-field  input" type="text" placeholder="Enter Username" name="uname" required>
+                <div id="user"><span style="position:absolute; right:25px;top:178px;" class="fas fa-user-tie "></span></div>
+                <label><b>E-Mail</b></label>
+                <input id="pass" type="text" class="form-control input" placeholder="Enter mail id" name="mail" required>
+                <div id="user"><span style="position:absolute; right:25px;top:278px;" class="fas fa-envelope envelope"></span></div>
+                <label><b>Password</b></label>
+                <input id="pass" type="password" class="form-control input" placeholder="Enter Password" name="psw" required>
+                <div id="user"><span style="position:absolute; right:25px;top:378px;" class="fas fa-key"></span></div>
+                <label><b>Cofirm Password</b></label>
+                <input id="pass" type="password" class="form-control input" placeholder="Cofirm Password" name="psw" required>
+                <div id="user"><span style="position:absolute; right:25px;top:478px;" class="fas fa-lock lock"></span></div>
+
+                <button type="submit" id="b1" class="butn">Sign Up</button>
+                <p style="text-align: center;">Or</p>
+                <i class="fab fa-google-plus"></i>
+                <i class="fab fa-twitter twitter"></i>
+                <i class="fab fa-facebook"></i>
+                </ul>
+            </div>
+        </form>
+    </div>
+    <div id="id03" class="modal">
+
+      <form id="bg-dark1" class="modal-content animate bg-dark">
+          <div class="imgcontainer">
+              <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">×</span>
+
+          </div>
+
+          <div class="container">
+              <h2 id="h2">PRO BENEFITS <i class="fas fa-user-shield"></i></h2><br>
+              <ul>
+                  <li id="pro">
+                      <P>No Ads</P><br>
+                  </li>
+                  <li id="pro">
+                      <P>Find Industry contacts & talent representation</P><br>
+                  </li>
+                  <li id="pro">
+                      <P>Access in-developement titles not available in Trend Review</P><br>
+                  </li>
+                  <li id="pro">
+                      <P>Get the latest news from leading industry trades</P><br>
+                  </li>
+                  <li id="pro">
+                      <P>Claim your page and control your brand across Trend Review & Amazon</P><br>
+                  </li>
+
+              </ul>
+              <button type="submit" id="bb" class="butn">Start Free Trail</button><br>
+              <p id="pros">Try it Free for 5 days</p>
+          </div>
+
+
+      </form>
+  </div>
+    <div id="boot" class="container mb-5">
+      <div class="row rounded shadow mt-5 px-3 py-5" style="background-color: #444444;">
+        <div class="col-md-7 h-100 mr-3 mb-2">
+          <img src="https://i1.wp.com/fullcirclecinema.com/wp-content/uploads/2020/09/wJ4s9FFL6FdxAoKixtr4FS.jpg?resize=960%2C640&ssl=1" style="box-shadow: 2px 2px 4px #000000;" class="rounded shadow" height="100%" width="100%" alt="">
+        </div>
+        <div class="col h-100">
+          <div class="row mb-2">
+            <h1 style="font-family: Days One; font-size: 22px; color: white;">TENET</h1>
+          </div>
+          <div class="row mb-3">
+          <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon half"></i><i class="star icon outline"></i>
+        </div>
+        <div class="row">
+          <h5 class="mt-3 mr-5" style="font: Convergence; color: white;">Armed with only one word, Tenet, and fighting for the survival of the entire world, a protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time. </p>
+        </div>
+        </div>
+      </div><!--End of Tenet Container-->
+      <div class="row justify-content-center my-5">
+        <a href="#top-picks" onclick="test('top-picks'); return false" class="btn btn-sm btn-warning" style="height: 1px; width: 50px;"></a>
+      </div>
+    <div id="top-picks" class="my-5">
+        <h1 class="mb-3" style="color: white;">Top List</h1>
+        <div class="row rounded shadow mb-3 carousel-container">    
+            <div class="container text-center my-3">
+                <div class="row mx-auto my-auto">
+                    <div id="recipeCarouse8" class="carousel slide w-100 carousel-container" data-ride="carousel">
+                        <div class="carousel-inner w-100 carousel-container" role="listbox">
+                            <div class="card-container h-100">
+                            <div class="carousel-item active" style="cursor: pointer;">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100 border-dark">
+                                        <div class="image">
+                                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkmMH-bEDUS2TmK8amBqgIMgrfzN1_mImChPuMrunA1XjNTSKm">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">The Shawshank Redemption</div>
+                                          <div class="description h-100">
+                                            Andy Dufresne, a successful banker, is arrested for the murders of his wife and her lover, and is sentenced to life imprisonment at the Shawshank prison.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                            <div class="ui button">
+                                                <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon"></i>
+                                            </div>
+                                            <div class="ui primary button">
+                                              <i class="play icon"></i>
+                                              Watch
+                                            </div>
+                                          </div>
+                                        </div>
+                                        
+                                  </div>
+                              </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://imgc.allpostersimages.com/img/print/u-g-F4S8SJ0.jpg?w=550&h=550&p=0">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">The Godfather I</div>
+                                          <div class="description">
+                                            The Godfather is a 1972 American crime film directed by Francis Ford Coppola who co-wrote the screenplay with Mario Puzo, based on Puzo's best-selling 1969 novel of the same name.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                     
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRZ6ToTQtumClvfIsMO46QiwvAm47_ghVBSZsjrJxjjPt38gyeg">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">The Godfather II</div>
+                                          <div class="description">
+                                            Michael, Vito Corleone's son, attempts to expand his family's criminal empire. While he strikes a business deal with gangster Hyman Roth, he remains unaware of the lurking danger.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://contentserver.com.au/assets/598411_p173378_p_v8_au.jpg">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">The Dark Knight</div>
+                                          <div class="description">
+                                            After Gordon, Dent and Batman begin an assault on Gotham's organised crime, the mobs hire the Joker, a psychopathic criminal mastermind who offers to kill Batman and bring the city to its knees.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQuhFZT3lQfr0vDy4XWMHQ8X93FWuamEuw_5iB4dmOTxc_w79rA">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">12 Angry Men</div>
+                                          <div class="description">
+                                            A dissenting juror in a murder trial slowly manages to convince the others that the case is not as obviously clear as it seemed in court.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon half"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://images-na.ssl-images-amazon.com/images/I/81kLUb0-J2L._SY550_.jpg">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Pulp Fiction</div>
+                                          <div class="description">
+                                            In the realm of underworld, a series of incidents intertwines the lives of two Los Angeles mobsters, a gangster's wife, a boxer and two small-time criminals.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon half"></i><i class="star icon outline"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <a class="carousel-control-prev w-auto" href="#recipeCarouse8" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon border border-rounded bg-dark p-3" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next w-auto" href="#recipeCarouse8" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon border border-rounded bg-dark p-3 mr-5" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div> 
+    </div><!--End of top-list-->
+    <div id="tv-series" class="my-5">
+        <h1 class="mb-3" style="color: white;">TV Series</h1>
+        <div class="row rounded shadow mb-3 carousel-container">    
+            <div class="container text-center my-3">
+                <div class="row mx-auto my-auto">
+                    <div id="recipeCarouse7" class="carousel slide w-100 carousel-container" data-ride="carousel">
+                        <div class="carousel-inner w-100 carousel-container" role="listbox">
+                            <div class="card-container h-100">
+                            <div class="carousel-item active" style="cursor: pointer;">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100 border-dark">
+                                        <div class="image">
+                                          <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSK9eqijqRLTwXWp8mGWvE5ti1l3FCZ2qVkx83TJNW2SRT4vkHC">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Breaking Bad</div>
+                                          <div class="description h-100">
+                                            Walter White, a chemistry teacher, discovers that he has cancer and decides to get into the meth-making business to repay his medical debts. His priorities begin to change when he partners with Jesse.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                            <div class="ui button">
+                                                <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon half"></i>
+                                            </div>
+                                            <div class="ui primary button">
+                                              <i class="play icon"></i>
+                                              Watch
+                                            </div>
+                                          </div>
+                                        </div>
+                                        
+                                  </div>
+                              </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://i.pinimg.com/originals/1b/88/4b/1b884bffabfe27f2271752c8c9da3f08.jpg">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Sherlock</div>
+                                          <div class="description">
+                                            Dr Watson, a former army doctor, finds himself sharing a flat with Sherlock Holmes, an eccentric individual with a knack for solving crimes. Together, they take on the most unusual cases.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon half"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxGeyWdK_fO4ms5YupjCejDmQ-JoET5tiuwukOmQeRoN_UVcKd">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Prison Break</div>
+                                          <div class="description">
+                                            Due to a political conspiracy, an innocent man is sent to death row and his only hope is his brother, who makes it his mission to deliberately get himself sent to the same prison in order to break the both of them out, from the inside. 
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon outline"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRMsyv-7KLXpaqqRnnuPrW6kDi-2SAQzsoYDkFybg4H-f7HVFZ1">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Mr. Robot</div>
+                                          <div class="description">
+                                            Elliot, a cyber-security engineer suffering from anxiety, works for a corporation and hacks felons by night. Panic strikes him after Mr Robot, a cryptic anarchist, recruits him to ruin his company.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon half"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                     
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_.jpg">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Game Of Thrones</div>
+                                          <div class="description">
+                                            Nine noble families wage war against each other in order to gain control over the mythical land of Westeros. Meanwhile, a force is rising after millenniums and threatens the existence of living men.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon outline"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://images-na.ssl-images-amazon.com/images/I/81DBzZQ03fL._SY445_.jpg">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Silicon Valley</div>
+                                          <div class="description">
+                                            Richard, a programmer, creates an app called the Pied Piper and tries to get investors for it. Meanwhile, five other programmers struggle to make their mark in Silicon Valley.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon outline"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <a class="carousel-control-prev w-auto" href="#recipeCarouse7" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon border border-rounded bg-dark p-3" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next w-auto" href="#recipeCarouse7" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon border border-rounded bg-dark p-3 mr-5" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div> 
+    </div><!--End of tv-series-->
+    <div id="movies-english" class="my-5">
+        <h1 class="mb-3" style="color: white;">Hollywood Movies</h1>
+        <div class="row rounded shadow mb-3 carousel-container">    
+            <div class="container text-center my-3">
+                <div class="row mx-auto my-auto">
+                    <div id="recipeCarouse6" class="carousel slide w-100 carousel-container" data-ride="carousel">
+                        <div class="carousel-inner w-100 carousel-container" role="listbox">
+                            <div class="card-container h-100">
+                            <div class="carousel-item active" style="cursor: pointer;">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100 border-dark">
+                                        <div class="image">
+                                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJKLiEyyz1Q9RC8EBYl3ijr3nuGeyO2ETmwy6Kdq0AQtD0elWD">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Joker</div>
+                                          <div class="description h-100">
+                                            Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                            <div class="ui button">
+                                                <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon outline"></i>
+                                            </div>
+                                            <div class="ui primary button">
+                                              <i class="play icon"></i>
+                                              Watch
+                                            </div>
+                                          </div>
+                                        </div>
+                                        
+                                  </div>
+                              </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSk-Xjs0S4KVnLByZNpAT-oaFmzlcS8xVzJL9sGTXUIRw7s2aMh">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Blood Shot</div>
+                                          <div class="description">
+                                            Ray Garrison, resurrected after his death by Emil Harting, sets out to seek revenge on his killer. However, he finds himself chasing different targets and uncovers a dangerous secret about Harting.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon outline"></i><i class="star icon outline"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQA_-tL18_rj9zEcjN6n41NEaJm-kRNF9UeOtvksZ4z_OW6jRA9">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Avengers EndGame</div>
+                                          <div class="description">
+                                            After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon outline"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTafejzx3f8ebxAcCsY1TDJ5GLxVXE8rlM72o3cwCa1vrG7jtoS">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Birds Of Prey</div>
+                                          <div class="description">
+                                            It's open season on Harley Quinn when her explosive breakup with the Joker puts a big fat target on her back. Unprotected and on the run, Quinn faces the wrath of narcissistic crime boss Black Mask.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon outline"></i><i class="star icon outline"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://www.movienewsletters.net/photos/242898R1.jpg">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Sonic the Hedgehog</div>
+                                          <div class="description">
+                                            The world needed a hero -- it got a hedgehog. Powered with incredible speed, Sonic embraces his new home on Earth -- until he accidentally knocks out the power grid.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon outline"></i><i class="star icon outline"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSoar8y_ZLMjpU2DUCmYy4twmLqIGwLIUr7OHvV4oGYWYt3aB0-">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Dolittle</div>
+                                          <div class="description">
+                                            Dr. John Dolittle lives in solitude behind the high walls of his lush manor in 19th-century England. His only companionship comes from an array of exotic animals that he speaks to on a daily basis.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon outline"></i><i class="star icon outline"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                     
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <a class="carousel-control-prev w-auto" href="#recipeCarouse6" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon border border-rounded bg-dark p-3" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next w-auto" href="#recipeCarouse6" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon border border-rounded bg-dark p-3 mr-5" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div> 
+    </div><!--End of Movies-english-->
+    <div id="movies-hindi" class="my-5">
+        <h1 class="mb-3" style="color: white;">Bollywood Movies</h1>
+        <div class="row rounded shadow mb-3 carousel-container">    
+            <div class="container text-center my-3">
+                <div class="row mx-auto my-auto">
+                    <div id="recipeCarouse3" class="carousel slide w-100 carousel-container" data-ride="carousel">
+                        <div class="carousel-inner w-100 carousel-container" role="listbox">
+                            <div class="card-container h-100">
+                            <div class="carousel-item active" style="cursor: pointer;">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100 border-dark">
+                                        <div class="image">
+                                          <img src="https://i2.cinestaan.com/image-bank/1500-1500/170001-171000/170645.jpg">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Baahgi 3</div>
+                                          <div class="description h-100">
+                                            Ronnie and Vikram are brothers who share an unbreakable bond. Their journey begins when a certain turn in events, leads Vikram to travel. On this trip, he gets kidnapped by people. Ronnie witnesses his brother getting beaten and kidnapped.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                            <div class="ui button">
+                                                <i class="star icon"></i><i class="star icon half"></i><i class="star icon outline"></i><i class="star icon outline"></i><i class="star icon outline"></i>
+                                            </div>
+                                            <div class="ui primary button">
+                                              <i class="play icon"></i>
+                                              Watch
+                                            </div>
+                                          </div>
+                                        </div>
+                                        
+                                  </div>
+                              </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5w97X_QlLzAQICY5oSLHt29zN8AuSNTFpaZwlHb2EXSi1pKxA">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Shubh Mangal Zyada Saavdhan</div>
+                                          <div class="description">
+                                            Gay couple Kartik and Aman face a long and difficult road to happiness as they battle opposition from Aman's family. However, Kartik isn't prepared to step back until he marries Aman.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon half"></i><i class="star icon outline"></i><i class="star icon outline"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://www.binged.com/wp-content/uploads/2020/07/Shakuntala-Devi-Amazon-Prime-REview.jpg">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Shakuntala Devi</div>
+                                          <div class="description">
+                                            A biographical drama on the life of Shakuntala Devi, the renowned mathematician, whose astounding skills of solving complex math problems in record time
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon outline"></i><i class="star icon outline"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTTRKh-FpoJNJQt7kG6M3CP3LX8RZUknUvwDKUqOLo7glspFqwc">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Gulabo Sitabo</div>
+                                          <div class="description">
+                                            Two scheming men get caught up in a game of one upmanship, each one attracting other members to their clan and each one with an agenda of his own. 
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon outline"></i><i class="star icon outline"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReP8p-XnijdmOfg77fBYECflwAOQ9vIzllHOtikZM-kGvjNpOR">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">War</div>
+                                          <div class="description">
+                                            Kabir, a secret agent, goes rogue after a mission to catch a terrorist goes awry. However, his boss sends Khalid, another agent and his student, to track him down.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon outline"></i><i class="star icon outline"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTAY3NEEcdyk9xbinmK_PgI0zX5otw3-xkTmvvDHSHoN1Q6MrYk">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Dil Bechara</div>
+                                          <div class="description">
+                                            While struggling to survive, Manny and Kizie, who each have a terminal illness, fall in love with each other. Thereafter, the two try to spend the rest of their days being happy and staying positive.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon half"></i><i class="star icon outline"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <a class="carousel-control-prev w-auto" href="#recipeCarouse3" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon border border-rounded bg-dark p-3" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next w-auto" href="#recipeCarouse3" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon border border-rounded bg-dark p-3 mr-5" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div> 
+    </div><!--End of Movies-hindi-->
+    <div id="movies-malayalam" class="my-5">
+        <h1 class="mb-3" style="color: white;">Mollywood Movies</h1>
+        <div class="row rounded shadow mb-3 carousel-container">    
+            <div class="container text-center my-3">
+                <div class="row mx-auto my-auto">
+                    <div id="recipeCarouse2" class="carousel slide w-100 carousel-container" data-ride="carousel">
+                        <div class="carousel-inner w-100 carousel-container" role="listbox">
+                            <div class="card-container h-100">
+                            <div class="carousel-item active" style="cursor: pointer;">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100 border-dark">
+                                        <div class="image">
+                                          <img src="https://assets.voxcinemas.com/posters/P_HO00007608.jpg">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Munthiri Monchen</div>
+                                          <div class="description h-100">
+                                            Munthiri Monchan is a feel good urban romantic comedy revolves around Vivek Viswanath, a young marketing guy working in an cinema advertising firm and his accidental meeting with Ima Rajiv, who runs an online lending library startup.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                            <div class="ui button">
+                                                <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon outline"></i>
+                                            </div>
+                                            <div class="ui primary button">
+                                              <i class="play icon"></i>
+                                              Watch
+                                            </div>
+                                          </div>
+                                        </div>
+                                        
+                                  </div>
+                              </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://www.sify.com/uploads/HLS_ukoi1mjhcbejg.jpeg">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Halal Love Story</div>
+                                          <div class="description">
+                                            Two cinema enthusiasts from a religious organization decide to make a movie in accordance to the religious understanding of permissible and forbidden. They find an experienced crew from the mainstream but they have reservations on the cast of the lead couple.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon outline"></i><i class="star icon outline"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://www.binged.com/wp-content/uploads/2020/08/Maniyarayile-Ashokan.jpg">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Maniyarayile Ashokan</div>
+                                          <div class="description">
+                                            Ashokan (Gregory) starts his day by dreaming of his better half and a happy married life. However, in reality, he is a disappointed village office employee with an unlucky horoscope and inferior thoughts about his short stature. 
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star half icon"></i><i class="star icon outline"></i><i class="star icon outline"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://images-na.ssl-images-amazon.com/images/I/81AZI6ndJRL._RI_.jpg">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Sufiyum Sujatayum</div>
+                                          <div class="description">
+                                            Sujata (mute) is in love with her neighbour, a sufi priest but her father gets her married off to a well-do-to NRI, in Dubai. Ten years have passed since and she thinks that she's left that love in her past - until, one day, she gets a call. Her husband (Rajeev) decides to bring her back to the village
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon outline"></i><i class="star icon outline"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                     
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://m.media-amazon.com/images/M/MV5BYjE4OTdmMGUtNDBjNi00ZDRiLTk0ZWItMjVlZjk0ZjdmMWY0XkEyXkFqcGdeQXVyMjkxNzQ1NDI@._V1_.jpg">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Keppala</div>
+                                          <div class="description">
+                                            A young woman falls in love with a man after dialling his number by mistake. However, when she visits his city to meet him, a stranger named Roy enters her life.
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon half"></i><i class="star icon outline"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-4">
+                                    <div class="ui card card-hover h-100">
+                                        <div class="image">
+                                          <img src="https://pbs.twimg.com/media/EOIHhL2W4AAEl9p.jpg">
+                                        </div>
+                                        <div class="content">
+                                          <div class="header">Forensic</div>
+                                          <div class="description">
+                                            Samuel uses his forensic skills and discovers breakthroughs in a serial killing case as further victims are added to the list. Shikha teams up with Samuel and uncovers evidence that might lead to the killer's identity. 
+                                          </div>
+                                        </div>
+                                        <div class="ui two bottom attached buttons">
+                                          <div class="ui button">
+                                            <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon outline"></i><i class="star icon outline"></i>
+                                          </div>
+                                          <div class="ui primary button">
+                                            <i class="play icon"></i>
+                                            Watch
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <a class="carousel-control-prev w-auto" href="#recipeCarouse2" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon border border-rounded bg-dark p-3" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next w-auto" href="#recipeCarouse2" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon border border-rounded bg-dark p-3 mr-5" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div> 
+    </div> <!--End of Movies-malayalam-->
+    <div id="movies-tamil" class="my-5">
+        <h1 class="mb-3" style="color: white;">Kollywood Movies</h1>
+            <div class="row rounded shadow mb-3 carousel-container">    
+                <div class="container text-center my-3">
+                    <div class="row mx-auto my-auto">
+                        <div id="recipeCarouse5" class="carousel slide w-100 carousel-container" data-ride="carousel">
+                            <div class="carousel-inner w-100 carousel-container" role="listbox">
+                                <div class="card-container h-100">
+                                <div class="carousel-item active" style="cursor: pointer;">
+                                    <div class="col-sm-4">
+                                        <div class="ui card card-hover h-100 border-dark">
+                                            <div class="image">
+                                              <img src="https://pbs.twimg.com/media/EJAUBcAUYAEHuBq?format=jpg&name=4096x4096">
+                                            </div>
+                                            <div class="content">
+                                              <div class="header">Soorarai Pottru</div>
+                                              <div class="description h-100">
+                                                Soorarai Pottru is an upcoming Indian Tamil-language action drama film directed by Sudha Kongara and produced by Suriya and Guneet Monga.
+                                              </div>
+                                            </div>
+                                            <div class="ui two bottom attached buttons">
+                                                <div class="ui button">
+                                                    <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon outline"></i>
+                                                </div>
+                                                <div class="ui primary button">
+                                                  <i class="play icon"></i>
+                                                  Watch
+                                                </div>
+                                              </div>
+                                            </div>
+                                           
+                                      </div>
+                                  </div>
+                                <div class="carousel-item">
+                                    <div class="col-sm-4">
+                                        <div class="ui card card-hover h-100">
+                                            <div class="image">
+                                              <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSRSeeUBYxwwB5tG7n55adSfSVwEGw8HK-xU-qb-IWYywkTUjkI">
+                                            </div>
+                                            <div class="content">
+                                              <div class="header">Ponmagal Vanthaal</div>
+                                              <div class="description">
+                                                Ponmagal Vandhal, is a Murder Mystery Courtroom Drama set in Ooty, 2020. Venba , a determined lawyer, reopens the case of a serial killer Jothi, after 15 Years. This is Venba's journey against child abuse.
+                                              </div>
+                                            </div>
+                                            <div class="ui two bottom attached buttons">
+                                              <div class="ui button">
+                                                <i class="star icon"></i><i class="star icon"></i><i class="star half icon"></i><i class="star icon outline"></i><i class="star icon outline"></i>
+                                              </div>
+                                              <div class="ui primary button">
+                                                <i class="play icon"></i>
+                                                Watch
+                                              </div>
+                                            </div>
+                                          </div>
+                                          
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-sm-4">
+                                        <div class="ui card card-hover h-100">
+                                            <div class="image">
+                                              <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR7ORMs-bGCvuuzsK6D5T4FboZtS52SuNdmAHDxqwdKTffxCAp_">
+                                            </div>
+                                            <div class="content">
+                                              <div class="header">Dharala Prabhu</div>
+                                              <div class="description">
+                                                In this movie, When Prabhu is approached by a doctor from a fertility clinic, he agrees to donate his sperm to make some money. While his sperm is highly successful, his own life gets twisted around because of it.
+                                              </div>
+                                            </div>
+                                            <div class="ui two bottom attached buttons">
+                                              <div class="ui button">
+                                                <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon outline"></i><i class="star icon outline"></i>
+                                              </div>
+                                              <div class="ui primary button">
+                                                <i class="play icon"></i>
+                                                Watch
+                                              </div>
+                                            </div>
+                                          </div>
+                                          
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-sm-4">
+                                        <div class="ui card card-hover h-100">
+                                            <div class="image">
+                                              <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRysmLHs2vneWpBrbGvjqjDaECSLgO2FRItbWsXcSoGpo-Sv4kD">
+                                            </div>
+                                            <div class="content">
+                                              <div class="header">Kannum Kannum Kollai Adithal</div>
+                                              <div class="description">
+                                                Two fraudsters involved in online shopping scams fall in love and eventually decide to give up their shady business, oblivious to the real intentions of the women they love.
+                                              </div>
+                                            </div>
+                                            <div class="ui two bottom attached buttons">
+                                              <div class="ui button">
+                                                <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star half icon"></i><i class="star icon outline"></i>
+                                              </div>
+                                              <div class="ui primary button">
+                                                <i class="play icon"></i>
+                                                Watch
+                                              </div>
+                                            </div>
+                                          </div>
+                                          
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-sm-4">
+                                        <div class="ui card card-hover h-100">
+                                            <div class="image">
+                                              <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTydGZHHU7lZCZ-1Mji6Pytq1LieRYvx3JqL49JKrAlNoyGsF6B">
+                                            </div>
+                                            <div class="content">
+                                              <div class="header">Darbar</div>
+                                              <div class="description">
+                                                Aaditya, the commissioner of Mumbai Police, sets out to catch Ajay, a drug peddler. However, he uncovers a deeper controversy linked to an international drug lord and must mete out justice.
+                                              </div>
+                                            </div>
+                                            <div class="ui two bottom attached buttons">
+                                              <div class="ui button">
+                                                <i class="star icon"></i><i class="star icon"></i><i class="star icon"></i><i class="star icon outline"></i><i class="star icon outline"></i>
+                                              </div>
+                                              <div class="ui primary button">
+                                                <i class="play icon"></i>
+                                                Watch
+                                              </div>
+                                            </div>
+                                          </div>
+                                          
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-sm-4">
+                                        <div class="ui card card-hover h-100">
+                                            <div class="image">
+                                              <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSdNyxZkcxvkz0glndy7eDryWDssbfsFTl9djqx_9vEFElZ_m4U">
+                                            </div>
+                                            <div class="content">
+                                              <div class="header">Mafia</div>
+                                              <div class="description">
+                                                A narcotics officer engages in a cat-and-mouse chase to capture a powerful criminal kingpin not knowing that it could have a connection to a truth in his past.
+                                              </div>
+                                            </div>
+                                            <div class="ui two bottom attached buttons">
+                                              <div class="ui button">
+                                                <i class="star icon"></i><i class="star icon"></i><i class="star icon outline"></i><i class="star icon outline"></i><i class="star icon outline"></i>
+                                              </div>
+                                              <div class="ui primary button">
+                                                <i class="play icon"></i>
+                                                Watch
+                                              </div>
+                                            </div>
+                                          </div>
+                                          
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <a class="carousel-control-prev w-auto" href="#recipeCarouse5" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon border border-rounded bg-dark p-3" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next w-auto" href="#recipeCarouse5" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon border border-rounded bg-dark p-3 mr-5" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div> 
+    </div> <!--End of Movies-tamil-->
+    <div id="celebrities" class="my-5">
+      <h1 class="mb-3" style="color: white;">Celebrities</h1>
+      <div class="row rounded shadow mb-3 carousel-container">    
+          <div class="container text-center my-3">
+              <div class="row mx-auto my-auto">
+                  <div id="recipeCarousel" class="carousel slide w-100 carousel-container" data-ride="carousel">
+                      <div class="carousel-inner w-100 carousel-container" role="listbox">
+                          <div class="carousel-item active">
+                              <div class="col-sm-4">
+                                <div class="card h-100 card-hover" style="background-color: #444444;">
+                                  <img class="card-img-top" src="https://i.ytimg.com/vi/-CKX-uc2vt8/maxresdefault.jpg" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title" style="color: whitesmoke;">Joseph Vijay</h5>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="col-sm-4">
+                                <div class="card h-100 card-hover" style="background-color: #444444;">
+                                  <img class="card-img-top" src="https://www.filmibeat.com/ph-big/2019/02/ajith-kumar_155056831530.jpg" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Ajith Kumar</h5>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="col-sm-4">
+                                <div class="card h-100 card-hover" style="background-color: #444444;">
+                                  <img class="card-img-top" src="https://i.pinimg.com/originals/d4/06/5e/d4065e8f365db04921b9dabbaac02f0c.jpg" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">RajiniKanth</h5>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="col-sm-4">
+                                <div class="card h-100 card-hover" style="background-color: #444444;">
+                                  <img class="card-img-top" src="https://www.filmibeat.com/wimgm/1366x70/desktop/2019/11/xkamal-haasan_11.jpg.pagespeed.ic.yPUz1JhYlh.jpg" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Kamal Hassan</h5>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="col-sm-4">
+                                <div class="card h-100 card-hover" style="background-color: #444444;">
+                                  <img class="card-img-top" src="https://www.filmibeat.com/wimg/desktop/2019/02/nayantara_155046704170.jpg" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Nayanthara</h5>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="col-sm-4">
+                                <div class="card h-100 card-hover" style="background-color: #444444;">
+                                  <img class="card-img-top" src="https://tamilglitz.in/wp-content/uploads/2017/03/Samantha-in-24-movie-stills-7-1-650x406.jpg" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Samantha Akkineni</h5>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon border border-rounded bg-dark p-3" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon border border-rounded bg-dark p-3" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                      </a>
+                  </div>
+              </div>
+          </div>
+          </div>
+  </div> <!--End of Celebrities-->
+  </div> <!--End of Container-->
+  <a href="#" class="float" onclick="openForm()">
+    <i class="fas fa-comment-dots my-float"></i>
+</a>
+<div class="label-container">
+    <div class="label-text">Feedback</div>
+    <i class="fa fa-play label-arrow"></i>
+</div>
+
+
+<div class="chat-popup" id="myForm">
+    <form class="form-container  bg-dark">
+        <h3 id="h3">Feedback</h3>
+
+        <label for="msg"><b>Your Message</b></label>
+        <textarea placeholder="Type message.." name="msg" required></textarea>
+
+        <button type="submit" class="btn butn-grad1 ">Send</button>
+        <button type="button" class="btn cancel butn-grad2 " onclick="closeForm()">Close</button>
+    </form>
+</div>
+
+  <footer class="page-footer font-small unique-color-dark bg-dark">
+
+    <div style="background-image: linear-gradient(101deg, #7891ff, #ff48fa);">
+        <div class="container ">
+
+            <!-- Grid row-->
+            <div class="row py-4 d-flex align-items-center">
+
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                    <h6 class="mb-0">Get connected with us on social networks!</h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                    <!-- Facebook -->
+                    <a class="fb-ic">
+                        <i class="fab fa-facebook-f white-text mr-4"> </i>
+                    </a>
+                    <!-- Twitter -->
+                    <a class="tw-ic">
+                        <i class="fab fa-twitter white-text mr-4"> </i>
+                    </a>
+                    <!-- Google +-->
+                    <a class="gplus-ic">
+                        <i class="fab fa-google-plus-g white-text mr-4"> </i>
+                    </a>
+                    <!--Linkedin -->
+                    <a class="li-ic">
+                        <i class="fab fa-linkedin-in white-text mr-4"> </i>
+                    </a>
+                    <!--Instagram-->
+                    <a class="ins-ic">
+                        <i class="fab fa-instagram white-text"> </i>
+                    </a>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+    </div>
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
+
+        <!-- Grid row -->
+        <div class="row mt-3">
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                <!-- Content -->
+                <h6 class="text-uppercase font-weight-bold">TREND REVIEW</h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>Trend Review is an online database of information related to films, television programs, home videos, video games, and streaming content online – including cast, production crew and personal biographies, plot summaries, trivia, ratings,
+                    and fan and critical reviews.</p>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                <!-- Links -->
+                <h6 class="text-uppercase font-weight-bold">LANGUAGES</h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <a href="#!" id="footdec">English</a>
+                </p>
+                <p>
+                    <a href="#!" id="footdec">Tamil</a>
+                </p>
+                <p>
+                    <a href="#!" id="footdec">Hindi</a>
+                </p>
+                <p>
+                    <a href="#!" id="footdec">Malayalam</a>
+                </p>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                <!-- Links -->
+                <h6 class="text-uppercase font-weight-bold">MENU</h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <a href="#!" id="footdec">Movies</a>
+                </p>
+                <p>
+                    <a href="#!" id="footdec">TV Series</a>
+                </p>
+                <p>
+                    <a href="#!" id="footdec">Top Lists</a>
+                </p>
+                <p>
+                    </i> <a href="#!" id="footdec">Help <i class="far fa-question-circle"></i> </a>
+                </p>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                <!-- Links -->
+                <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <i class="fas fa-home mr-3"></i>Flim Industry,Chennai-600 001,India.</p>
+                <p>
+                    <i class="fas fa-envelope mr-3"></i> designathon@example.com</p>
+                <p>
+                    <i class="fas fa-phone mr-3"></i> + 91 99887 76655 , 99443 32211
+                </p>
+                <p>
+                    <i class="fas fa-print mr-3"></i> + 00 1234567890</p>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="#" id="footdec"> Trend_review.com</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+
+<!-- Footer -->
+
+    <!-- Copyright -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="/script.js"></script>
+</body>
+</html>
